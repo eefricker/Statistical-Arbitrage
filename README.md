@@ -9,4 +9,4 @@ equities market"
 
 -Extreme survivorship bias examaining the current (2026-05) S&P500 companies from 1998 to 2022
 
-![Alt text](optimal_k5_dashboard.png)
+![Alt text](data/optimal_k5_dashboard.png)
