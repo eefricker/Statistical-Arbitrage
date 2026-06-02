@@ -1,0 +1,191 @@
+Data shape:        R = (8316, 505), mask = (8316, 505)
+Date range:        1990-01-02 -> 2021-12-31
+Eval start:        1998-01-02  (idx=2024)
+Eval length:       6292 trading days
+Survivorship note: this universe is the *current* S&P 500. Asset count in early years will be small.
+
+Asset availability:
+  At 1998 start: 288 / 505
+  At 2010-01:    401 / 505
+  At 2020-01:    473 / 505
+
+--- K = 1 ---
+  t=0/6292  active=21  gross_today=+0.0101
+  t=252/6292  active=24  gross_today=+0.0039
+  t=504/6292  active=20  gross_today=+0.0077
+  t=756/6292  active=28  gross_today=+0.0013
+  t=1008/6292  active=45  gross_today=+0.0028
+  t=1260/6292  active=41  gross_today=+0.0053
+  t=1512/6292  active=40  gross_today=-0.0012
+  t=1764/6292  active=24  gross_today=+0.0011
+  t=2016/6292  active=21  gross_today=-0.0018
+  t=2268/6292  active=25  gross_today=-0.0041
+  t=2520/6292  active=30  gross_today=+0.0036
+  t=2772/6292  active=37  gross_today=+0.0061
+  t=3024/6292  active=50  gross_today=-0.0037
+  t=3276/6292  active=30  gross_today=+0.0027
+  t=3528/6292  active=42  gross_today=+0.0001
+  t=3780/6292  active=36  gross_today=-0.0008
+  t=4032/6292  active=29  gross_today=+0.0070
+  t=4284/6292  active=37  gross_today=+0.0004
+  t=4536/6292  active=47  gross_today=-0.0034
+  t=4788/6292  active=44  gross_today=-0.0160
+  t=5040/6292  active=39  gross_today=-0.0010
+  t=5292/6292  active=54  gross_today=-0.0008
+  t=5544/6292  active=39  gross_today=+0.0013
+  t=5796/6292  active=31  gross_today=+0.0055
+  t=6048/6292  active=110  gross_today=-0.0080
+  Gross Sharpe: +1.206   Net Sharpe: +0.652   Active: 36.4   Turnover: 0.269
+
+--- K = 3 ---
+  t=0/6292  active=26  gross_today=+0.0085
+  t=252/6292  active=40  gross_today=+0.0013
+  t=504/6292  active=22  gross_today=+0.0133
+  t=756/6292  active=53  gross_today=-0.0020
+  t=1008/6292  active=38  gross_today=-0.0062
+  t=1260/6292  active=44  gross_today=+0.0047
+  t=1512/6292  active=36  gross_today=+0.0001
+  t=1764/6292  active=28  gross_today=-0.0018
+  t=2016/6292  active=25  gross_today=-0.0027
+  t=2268/6292  active=29  gross_today=-0.0035
+  t=2520/6292  active=34  gross_today=+0.0064
+  t=2772/6292  active=47  gross_today=+0.0017
+  t=3024/6292  active=53  gross_today=-0.0012
+  t=3276/6292  active=40  gross_today=+0.0039
+  t=3528/6292  active=38  gross_today=-0.0021
+  t=3780/6292  active=45  gross_today=-0.0003
+  t=4032/6292  active=40  gross_today=+0.0055
+  t=4284/6292  active=43  gross_today=-0.0061
+  t=4536/6292  active=38  gross_today=-0.0021
+  t=4788/6292  active=48  gross_today=-0.0025
+  t=5040/6292  active=53  gross_today=-0.0004
+  t=5292/6292  active=49  gross_today=+0.0001
+  t=5544/6292  active=36  gross_today=-0.0005
+  t=5796/6292  active=27  gross_today=-0.0005
+  t=6048/6292  active=83  gross_today=-0.0052
+  Gross Sharpe: +1.237   Net Sharpe: +0.571   Active: 40.3   Turnover: 0.266
+
+--- K = 5 ---
+  t=0/6292  active=32  gross_today=+0.0129
+  t=252/6292  active=39  gross_today=+0.0000
+  t=504/6292  active=27  gross_today=+0.0115
+  t=756/6292  active=44  gross_today=-0.0028
+  t=1008/6292  active=48  gross_today=-0.0075
+  t=1260/6292  active=47  gross_today=+0.0046
+  t=1512/6292  active=32  gross_today=-0.0059
+  t=1764/6292  active=29  gross_today=-0.0019
+  t=2016/6292  active=28  gross_today=-0.0014
+  t=2268/6292  active=26  gross_today=-0.0068
+  t=2520/6292  active=35  gross_today=+0.0022
+  t=2772/6292  active=50  gross_today=+0.0020
+  t=3024/6292  active=44  gross_today=+0.0019
+  t=3276/6292  active=39  gross_today=+0.0040
+  t=3528/6292  active=41  gross_today=+0.0000
+  t=3780/6292  active=34  gross_today=+0.0001
+  t=4032/6292  active=36  gross_today=+0.0048
+  t=4284/6292  active=37  gross_today=-0.0042
+  t=4536/6292  active=45  gross_today=-0.0017
+  t=4788/6292  active=48  gross_today=-0.0066
+  t=5040/6292  active=49  gross_today=+0.0010
+  t=5292/6292  active=52  gross_today=+0.0025
+  t=5544/6292  active=28  gross_today=-0.0027
+  t=5796/6292  active=36  gross_today=-0.0018
+  t=6048/6292  active=60  gross_today=-0.0009
+  Gross Sharpe: +1.563   Net Sharpe: +0.879   Active: 41.0   Turnover: 0.262
+
+--- K = 8 ---
+  t=0/6292  active=22  gross_today=+0.0126
+  t=252/6292  active=38  gross_today=-0.0009
+  t=504/6292  active=26  gross_today=+0.0115
+  t=756/6292  active=38  gross_today=-0.0089
+  t=1008/6292  active=50  gross_today=-0.0077
+  t=1260/6292  active=42  gross_today=+0.0053
+  t=1512/6292  active=24  gross_today=+0.0008
+  t=1764/6292  active=29  gross_today=+0.0003
+  t=2016/6292  active=37  gross_today=-0.0009
+  t=2268/6292  active=35  gross_today=-0.0033
+  t=2520/6292  active=45  gross_today=+0.0025
+  t=2772/6292  active=37  gross_today=+0.0021
+  t=3024/6292  active=48  gross_today=+0.0022
+  t=3276/6292  active=49  gross_today=+0.0039
+  t=3528/6292  active=30  gross_today=+0.0014
+  t=3780/6292  active=39  gross_today=+0.0003
+  t=4032/6292  active=37  gross_today=+0.0003
+  t=4284/6292  active=39  gross_today=-0.0042
+  t=4536/6292  active=36  gross_today=-0.0010
+  t=4788/6292  active=40  gross_today=-0.0044
+  t=5040/6292  active=49  gross_today=-0.0014
+  t=5292/6292  active=42  gross_today=+0.0037
+  t=5544/6292  active=44  gross_today=-0.0032
+  t=5796/6292  active=38  gross_today=-0.0003
+  t=6048/6292  active=61  gross_today=+0.0004
+  Gross Sharpe: +1.487   Net Sharpe: +0.762   Active: 41.1   Turnover: 0.271
+
+--- K = 15 ---
+  t=0/6292  active=20  gross_today=+0.0094
+  t=252/6292  active=24  gross_today=-0.0010
+  t=504/6292  active=27  gross_today=+0.0101
+  t=756/6292  active=42  gross_today=-0.0017
+  t=1008/6292  active=45  gross_today=+0.0030
+  t=1260/6292  active=44  gross_today=+0.0020
+  t=1512/6292  active=30  gross_today=-0.0025
+  t=1764/6292  active=38  gross_today=-0.0008
+  t=2016/6292  active=36  gross_today=-0.0008
+  t=2268/6292  active=39  gross_today=-0.0014
+  t=2520/6292  active=41  gross_today=+0.0009
+  t=2772/6292  active=40  gross_today=-0.0023
+  t=3024/6292  active=62  gross_today=+0.0034
+  t=3276/6292  active=42  gross_today=+0.0042
+  t=3528/6292  active=45  gross_today=-0.0032
+  t=3780/6292  active=45  gross_today=+0.0021
+  t=4032/6292  active=37  gross_today=-0.0012
+  t=4284/6292  active=49  gross_today=-0.0055
+  t=4536/6292  active=42  gross_today=-0.0012
+  t=4788/6292  active=44  gross_today=+0.0001
+  t=5040/6292  active=43  gross_today=+0.0004
+  t=5292/6292  active=46  gross_today=-0.0005
+  t=5544/6292  active=45  gross_today=-0.0037
+  t=5796/6292  active=41  gross_today=+0.0009
+  t=6048/6292  active=60  gross_today=-0.0014
+  Gross Sharpe: +1.563   Net Sharpe: +0.752   Active: 40.7   Turnover: 0.289
+
+--- K = 30 ---
+  t=0/6292  active=21  gross_today=+0.0088
+  t=252/6292  active=30  gross_today=+0.0054
+  t=504/6292  active=24  gross_today=+0.0135
+  t=756/6292  active=29  gross_today=-0.0031
+  t=1008/6292  active=47  gross_today=+0.0040
+  t=1260/6292  active=40  gross_today=+0.0066
+  t=1512/6292  active=17  gross_today=+0.0004
+  t=1764/6292  active=40  gross_today=+0.0027
+  t=2016/6292  active=30  gross_today=-0.0035
+  t=2268/6292  active=35  gross_today=-0.0004
+  t=2520/6292  active=26  gross_today=+0.0008
+  t=2772/6292  active=38  gross_today=+0.0006
+  t=3024/6292  active=58  gross_today=+0.0024
+  t=3276/6292  active=40  gross_today=+0.0040
+  t=3528/6292  active=31  gross_today=+0.0013
+  t=3780/6292  active=54  gross_today=-0.0009
+  t=4032/6292  active=36  gross_today=-0.0006
+  t=4284/6292  active=46  gross_today=-0.0024
+  t=4536/6292  active=43  gross_today=-0.0002
+  t=4788/6292  active=42  gross_today=-0.0021
+  t=5040/6292  active=37  gross_today=+0.0002
+  t=5292/6292  active=48  gross_today=+0.0010
+  t=5544/6292  active=39  gross_today=-0.0020
+  t=5796/6292  active=39  gross_today=+0.0009
+  t=6048/6292  active=41  gross_today=+0.0012
+  Gross Sharpe: +1.398   Net Sharpe: +0.529   Active: 38.6   Turnover: 0.325
+
+
+=== Model Summary ===
+ K  gross_sharpe  gross_mean  gross_std  net_sharpe  net_mean  mean_active  mean_turnover
+ 1      1.206165    0.098892   0.081989    0.652385  0.053486    36.371742       0.269147
+ 3      1.237105    0.084025   0.067921    0.570926  0.038778    40.254450       0.265819
+ 5      1.562844    0.102693   0.065709    0.879424  0.057776    40.963446       0.262398
+ 8      1.486565    0.094201   0.063368    0.761713  0.048274    41.080737       0.270788
+15      1.562664    0.093092   0.059573    0.751772  0.044785    40.679434       0.289171
+30      1.398317    0.085135   0.060884    0.528657  0.032190    38.579466       0.325093
+
+=== Comparison to Benchmark ===
+Equal-Weighted Benchmark Sharpe: 0.906296
