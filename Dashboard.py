@@ -93,7 +93,7 @@ def generate_performance_dashboard(
     axes[1].legend(handles1 + handles2, labels1 + labels2, loc="lower left", fontsize=10, frameon=True)
     
     # --- PANEL 3: Strategy Dynamics (Active Allocations) ---
-    axes[2].plot(dates, active_counts, color="darkgreen", lw=1.2, label="Active Cointegrated Positions")
+    axes[2].plot(dates, active_counts, color="darkgreen", lw=1.2, label="Active Positions")
     axes[2].set_title("Strategy Asset Engagement Over Time", fontsize=13, fontweight="bold")
     axes[2].set_ylabel("Number of Active Positions", fontsize=11)
     axes[2].set_xlabel("Timeline", fontsize=11)

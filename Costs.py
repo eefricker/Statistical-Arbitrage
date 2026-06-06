@@ -11,8 +11,8 @@ import sys
 def transaction_cost(
     w_t: np.ndarray,
     w_prev: np.ndarray,
-    c_trade: float = 0.0005,
-    c_short: float = 0.0001,
+    c_trade = 0.0005,
+    c_short = 0.0001,
 ):
 
     turnover = np.sum(np.abs(w_t - w_prev))
@@ -21,10 +21,10 @@ def transaction_cost(
  
  
 def apply_costs_to_path(
-    weights: np.ndarray,      # (T, N) portfolio weights over time
-    gross_returns: np.ndarray, # (T,) gross portfolio returns
-    c_trade: float = 0.0005,
-    c_short: float = 0.0001,
+    weights: np.ndarray,
+    gross_returns: np.ndarray,
+    c_trade = 0.0005,
+    c_short = 0.0001,
 ):
 
     T, N = weights.shape
@@ -48,14 +48,4 @@ def annualized_metrics(returns: np.ndarray, periods_per_year: int = 252):
         "std": sigma,
         "total_return": np.nansum(returns),
         "n_obs": int(np.sum(np.isfinite(returns))),
-    }
-    
-def load_data(data_path: str = "data_tensors.npz"):
-
-    z = np.load(data_path, allow_pickle=True)
-    return {
-        "R": z["R"],
-        "mask": z["mask"],
-        "dates": pd.to_datetime(z["dates"]),
-        "tickers": list(z["tickers"]),
     }
